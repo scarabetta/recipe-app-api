@@ -15,7 +15,7 @@ class UserAdmin(BaseUserAdmin):
     fieldsets = (
         (None, {'fields': ('email', 'password')}),
         (
-           _('Permissions'),
+            _('Permissions'),
             {
                 'fields': (
                     'is_active',
@@ -43,5 +43,6 @@ class UserAdmin(BaseUserAdmin):
             )
         }),
     )
+
 
 admin.site.register(models.User, UserAdmin)
