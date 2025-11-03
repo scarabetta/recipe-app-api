@@ -20,3 +20,4 @@ exclude =
     .coveralls.yml,
     .readthedocs.yml,
     .github,
+max-line-length = 120
